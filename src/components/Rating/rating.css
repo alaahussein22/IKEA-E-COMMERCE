@@ -1,0 +1,68 @@
+.radio-button {
+  display: none;
+}
+
+.ratingVal {
+  margin: 1rem 0;
+}
+
+.offcanvas-header {
+  padding: 1rem 0;
+}
+
+.header {
+  font-size: 25px;
+  margin: 0;
+}
+
+.star {
+  cursor: pointer;
+  transition: color 200ms;
+  margin: 7px;
+}
+
+.rate {
+  text-decoration: underline;
+  font-weight: bold;
+  font-size: small;
+  color: #dbbd12;
+}
+
+.review-container {
+  padding: 1rem;
+}
+
+.rating-input {
+  display: none;
+}
+
+.comment-input {
+  border-radius: 0.5rem;
+  border: 1px solid #000;
+  margin: 1rem 0;
+  padding: 0.5rem;
+}
+
+.submit-btn {
+  background-color: #0f58a1;
+  color: #fff;
+  border-radius: 0.5rem;
+  padding: 0.4rem;
+}
+
+.submit-btn:disabled {
+  background-color: #3f7bb8;
+}
+
+.show-review {
+  font-weight: bold;
+  font-size: 0.9rem;
+  padding: 0.8rem 0 0;
+  margin: 0;
+}
+
+.show-rating,
+.show-comment {
+  padding: 0.1rem 0;
+  margin: 0;
+}
